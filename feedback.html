@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grievance Cell System</title>
+    <link rel="stylesheet" href="feedback.css">
+    <script src="feedback.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href='index.html'>Home</a>
+            <li><a href='about.html'>About</a>
+            <li><a href='feedback.html'>Feedback</a>
+            <li><a href='student.html'>Student Login</a>
+            <li><a href='commitee.html'>Commitee Login</a>
+        </ul>
+    </nav>
+
+    <div class="register">
+        <h1>Give us your Feedback!</h1>
+        <form action="index.html" name="MyForm" onsubmit="return validateForm()" method="post">
+            Full Name: <br>
+            <input type="text" placeholder="Enter your full name" name="fname"> <br><br>
+            Email: <br>
+            <input type="text" placeholder="Enter your Email" name="femail"><br><br>
+            Password : <br>
+            <input type="password" name="fpassword"><br><br>
+            Phone Number: <br>
+            <input type="text" placeholder="Enter your phone Number" name="fnumber"><br><br>
+            Rate Us(required): <br><br>
+            <div>
+                <input type="radio" name="radAnswer" />
+                <label for="1">1</label>
+            </div>
+
+            <div>
+                <input type="radio" name="radAnswer" />
+                <label for="2">2</label>
+            </div>
+
+            <div>
+                <input type="radio" name="radAnswer" />
+                <label for="3">3</label>
+            </div>
+
+            <div>
+                <input type="radio" name="radAnswer" />
+                <label for="4">4</label>
+            </div>
+
+            <div>
+                <input type="radio" name="radAnswer" />
+                <label for="5">5</label>
+            </div>
+
+            <br><br>
+            Message(optional): <br>
+            <textarea name="fmessage" id="" cols="35" rows="5"></textarea><br><br>
+            <input id="submit" name="submit" type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

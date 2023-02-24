@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grievance Cell System</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="student.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href='index.html'>Home</a>
+            <li><a href='about.html'>About</a>
+            <li><a href='studentsignup.html'>Student Sign Up</a>
+        </ul>
+    </nav>
+
+    <div class="studentform">
+        <h1>Student Log In</h1>
+        <form action="./student" name="MyForm" onsubmit="return validateForm()" method="post">
+            <br><br><br>
+            Email Address:
+            <br>
+            <input type="text" name="femail">
+            <br>
+            <br>
+            <br>
+            Password:
+            <br>
+            <input type="password" name="fpassword">
+            <br>
+            <br>
+            <br>
+            <button>Log In</button>
+            
+        </form>
+    </div>
+    
+</body>
+
+</html>

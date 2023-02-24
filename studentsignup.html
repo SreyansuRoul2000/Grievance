@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grievance Cell System</title>
+    <link rel="stylesheet" href="studentsignup.css">
+    <script src="StudentSignUpValidation.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href='index.html'>Home</a>
+            <li><a href='about.html'>About</a>
+        </ul>
+    </nav>
+
+    <div class="register">
+        <h1>Student Sign Up</h1>
+        <form action="./index.html" name="MyForm" onsubmit="return validateForm()" method="post">
+            <div>
+                Name: <br>
+                <input type="text" name="fname"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                University Name: <br>
+                <input type="text" name="funiversity"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                Branch : <br>
+                <input type="text" name="fbranch"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                Registration Number: <br>
+                <input type="text" name="fregno"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                DOB : <br>
+                <input type="date" name="fdob"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                Email Address: <br>
+                <input type="text" name="femail"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                Password : <br>
+                <input type="password" name="fpassword"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                Contact Number: <br>
+                <input type="text" name="fcontactno"><span class="formerror"></span>
+                <br><br>
+            </div>
+
+            <div>
+                <input type="radio" name="radAnswer" />
+                <label for="male">Male</label>
+
+                <input type="radio" name="radAnswer" />
+                <label for="Female">Female</label>
+
+                <input type="radio" name="radAnswer" />
+                <label for="Others">Others</label>
+                
+                <br><br>
+            </div>
+
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+
+</html>

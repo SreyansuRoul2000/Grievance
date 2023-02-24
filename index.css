@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://bids.berkeley.edu/sites/default/files/shutterstock_384705781.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 200px;
+  
+  }
+  
+  header {
+    color: rgb(73, 5, 246);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    padding: 1em;
+    background-color: #edb7ee;
+    border: 2px solid rgb(2, 2, 2);
+    opacity: 0.6;
+    border-radius: 16px;
+    box-sizing: border-box;
+    width: 45%;
+    margin: 30px 78px 62px 400px;
+}
+header h1{
+  text-align: center;
+}
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* h1{
+    text-align: center;
+  } */
+
+.redressal{
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding:auto;
+    border-top: 5px solid black;
+    margin-bottom: 50px;
+}
+
+.objective {
+  margin-top: 227px;
+  margin-bottom: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  border-top: 5px solid black;
+}
+
+.redressal,.objective li{
+    font-size: 17px;
+}
